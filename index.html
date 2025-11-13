@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Summer Sale</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body>
@@ -30,69 +31,217 @@
 
     <!-- Card-container -->
     
-    <section class="w-6xl mx-auto   flex flex-col sm:flex-row  mt-20 ">
+    <section class="sm:w-6xl  mx-auto   flex flex-col sm:flex-row  mt-20 ">
+      
      
-      <div class="sm:w-[70%]  ">
+      <div class="sm:w-[70%] flex flex-col gap-8  justify-between  ">
 
+        <section class="flex flex-col gap-8 ">
 
-        <section class="">
-          <div> 
-            <h1 class="text-xl  font-semibold">Kitchenware</h1>
-          </div>
+          
 
-          <div class="mt-10 sm:flex   sm:justify-between">
-
-            <div class="flex sm:w-[200px]  sm:items-center   space-y-1  flex-col ">
-        <img class="w-[110px]" src="./images/img-1.png" alt="">
-
-        <div class="w-[14px] mr-16 mt-2 flex gap-1">
-          <img src="./images/star.png" alt="">
-          <img src="./images/star.png" alt="">
-          <img src="./images/star.png" alt="">
-          <img src="./images/star.png" alt="">
-          <img src="./images/star.png" alt="">
-        </div>
-        <h1 class=" text-lg font-semibold">K. Accessories</h1>
-        <p class="text-gray-600 ">39.00 TK</p>
-
-
-      </div>
-
-            <div class="flex sm:w-[200px] sm:items-center  space-y-1  flex-col ">
-        <img class="w-[110px]" src="./images/img-2.png" alt="">
-
-        <div class="w-[14px] mr-16 mt-2 flex gap-1">
-          <img src="./images/star.png" alt="">
-          <img src="./images/star.png" alt="">
-          <img src="./images/star.png" alt="">
-          <img src="./images/star.png" alt="">
-          <img src="./images/star.png" alt="">
-        </div>
-        <h1 class=" text-lg font-semibold">K. Accessories</h1>
-        <p class="text-gray-600 ">39.00 TK</p>
-
-
-      </div>
-
-            <div class="flex sm:w-[200px] sm:items-center   space-y-1  flex-col ">
-        <img class="w-[110px]" src="./images/img-3.png" alt="">
-
-        <div class="w-[14px] mr-16 mt-2 flex gap-1">
-          <img src="./images/star.png" alt="">
-          <img src="./images/star.png" alt="">
-          <img src="./images/star.png" alt="">
-          <img src="./images/star.png" alt="">
-          <img src="./images/star.png" alt="">
-        </div>
-        <h1 class=" text-lg font-semibold">K. Accessories</h1>
-        <p class="text-gray-600 ">39.00 TK</p>
-
-
-      </div>
-
+       <div class="text-center sm:text-start" id="Kitchenware">
+            <h1 class="text-2xl font-semibold">Kitchenware</h1>
           </div>
           
-      </section>
+          <div id="parents" class="flex flex-col items-center space-y-4 sm:flex-row sm:justify-around">
+
+          <div>  
+
+          <div class="text-center w-[140px] flex flex-col items-center ">
+            <img src="./images/img-1.png" alt="">
+            <i class="flex gap-1">
+              <i class="text-yellow-400 fa-solid fa-star"></i>
+              <i class="text-yellow-400 fa-solid fa-star"></i>
+              <i class="text-yellow-400 fa-solid fa-star"></i>
+              <i class="text-yellow-400 fa-solid fa-star"></i>
+              <i class="text-yellow-400 fa-solid fa-star"></i>
+            </i>
+            <h1 class="text-lg font-semibold">K. Accessories</h1>
+            <p class="text-gray-600">39.00 TK</p>
+          </div>
+
+          </div>
+
+          <div>  
+
+          <div class="text-center w-[140px] flex flex-col items-center ">
+            <img src="./images/img-2.png" alt="">
+            <i class="flex gap-1">
+              <i class="text-yellow-400 fa-solid fa-star"></i>
+              <i class="text-yellow-400 fa-solid fa-star"></i>
+              <i class="text-yellow-400 fa-solid fa-star"></i>
+              <i class="text-yellow-400 fa-solid fa-star"></i>
+              <i class="text-yellow-400 fa-solid fa-star"></i>
+            </i>
+            <h1 class="text-lg font-semibold">K. Accessories</h1>
+            <p class="text-gray-600">26.00 TK</p>
+          </div>
+
+          </div>
+
+          <div>  
+
+          <div class="text-center w-[140px] flex flex-col items-center ">
+            <img src="./images/img-3.png" alt="">
+            <i class="flex gap-1">
+              <i class="text-yellow-400 fa-solid fa-star"></i>
+              <i class="text-yellow-400 fa-solid fa-star"></i>
+              <i class="text-yellow-400 fa-solid fa-star"></i>
+              <i class="text-yellow-400 fa-solid fa-star"></i>
+              <i class="text-yellow-400 fa-solid fa-star"></i>
+            </i>
+            <h1 class="text-lg font-semibold">Home Cooker</h1>
+            <p class="text-gray-600">49.00 TK</p>
+          </div>
+
+          </div>
+
+
+</div>
+
+
+        </section>
+
+        <section class="flex flex-col gap-8 ">
+
+          
+
+       <div class="text-center sm:text-start" id="Kitchenware">
+            <h1 class="text-2xl font-semibold">Sportswear</h1>
+          </div>
+          
+          <div id="parents" class="flex flex-col items-center space-y-4 sm:flex-row sm:justify-around">
+
+          <div>  
+
+          <div class="text-center w-[140px] flex flex-col items-center ">
+            <img src="./images/img-4.png" alt="">
+            <i class="flex gap-1">
+              <i class="text-yellow-400 fa-solid fa-star"></i>
+              <i class="text-yellow-400 fa-solid fa-star"></i>
+              <i class="text-yellow-400 fa-solid fa-star"></i>
+              <i class="text-yellow-400 fa-solid fa-star"></i>
+              <i class="text-yellow-400 fa-solid fa-star"></i>
+            </i>
+            <h1 class="text-lg font-semibold">K. Accessories</h1>
+            <p class="text-gray-600">49.00 TK</p>
+          </div>
+
+          </div>
+
+          <div>  
+
+          <div class="text-center w-[140px] flex flex-col items-center ">
+            <img src="./images/img-5.png" alt="">
+            <i class="flex gap-1">
+              <i class="text-yellow-400 fa-solid fa-star"></i>
+              <i class="text-yellow-400 fa-solid fa-star"></i>
+              <i class="text-yellow-400 fa-solid fa-star"></i>
+              <i class="text-yellow-400 fa-solid fa-star"></i>
+              <i class="text-yellow-400 fa-solid fa-star"></i>
+            </i>
+            <h1 class="text-lg font-semibold">K. Accessories</h1>
+            <p class="text-gray-600">69.00 TK</p>
+          </div>
+
+          </div>
+
+          <div>  
+
+          <div class="text-center w-[140px] flex flex-col items-center ">
+            <img src="./images/img-6.png" alt="">
+            <i class="flex gap-1">
+              <i class="text-yellow-400 fa-solid fa-star"></i>
+              <i class="text-yellow-400 fa-solid fa-star"></i>
+              <i class="text-yellow-400 fa-solid fa-star"></i>
+              <i class="text-yellow-400 fa-solid fa-star"></i>
+              <i class="text-yellow-400 fa-solid fa-star"></i>
+            </i>
+            <h1 class="text-lg font-semibold">Home Cooker</h1>
+            <p class="text-gray-600">159.00 TK</p>
+          </div>
+
+          </div>
+
+
+</div>
+
+
+        </section>
+
+
+        <section class="flex flex-col gap-8 ">
+
+          
+
+       <div class="text-center sm:text-start" id="Kitchenware">
+            <h1 class="text-2xl font-semibold">Furniture</h1>
+          </div>
+          
+          <div id="parents" class="flex flex-col items-center space-y-4 sm:flex-row sm:justify-around">
+
+          <div>  
+
+          <div class="text-center w-[140px] flex flex-col items-center ">
+            <img src="./images/img-7.png" alt="">
+            <i class="flex gap-1">
+              <i class="text-yellow-400 fa-solid fa-star"></i>
+              <i class="text-yellow-400 fa-solid fa-star"></i>
+              <i class="text-yellow-400 fa-solid fa-star"></i>
+              <i class="text-yellow-400 fa-solid fa-star"></i>
+              <i class="text-yellow-400 fa-solid fa-star"></i>
+            </i>
+            <h1 class="text-lg font-semibold">K. Accessories</h1>
+            <p class="text-gray-600">185.00 TK</p>
+          </div>
+
+          </div>
+
+          <div>  
+
+          <div class="text-center w-[140px] flex flex-col items-center ">
+            <img src="./images/img-8.png" alt="">
+            <i class="flex gap-1">
+              <i class="text-yellow-400 fa-solid fa-star"></i>
+              <i class="text-yellow-400 fa-solid fa-star"></i>
+              <i class="text-yellow-400 fa-solid fa-star"></i>
+              <i class="text-yellow-400 fa-solid fa-star"></i>
+              <i class="text-yellow-400 fa-solid fa-star"></i>
+            </i>
+            <h1 class="text-lg font-semibold">K. Accessories</h1>
+            <p class="text-gray-600">299.00 TK</p>
+          </div>
+
+          </div>
+
+          <div>  
+
+          <div class="text-center w-[140px] flex flex-col items-center ">
+            <img src="./images/img-9.png" alt="">
+            <i class="flex gap-1">
+              <i class="text-yellow-400 fa-solid fa-star"></i>
+              <i class="text-yellow-400 fa-solid fa-star"></i>
+              <i class="text-yellow-400 fa-solid fa-star"></i>
+              <i class="text-yellow-400 fa-solid fa-star"></i>
+              <i class="text-yellow-400 fa-solid fa-star"></i>
+            </i>
+            <h1 class="text-lg font-semibold">Home Cooker</h1>
+            <p class="text-gray-600">339.00 TK</p>
+          </div>
+
+          </div>
+
+
+</div>
+
+
+        </section>
+
+
+          </div>
+
+
 
 
 
@@ -215,10 +364,9 @@
 
 
 
-      </div>
+      
 
-
-      <!-- <div class="sm:w-[30%] flex  ">
+      <div class="sm:w-[30%] flex justify-center mt-6 ">
 
         <form class="flex flex-col gap-2 px-10 py-6">
 
@@ -247,7 +395,7 @@
 
         </form>
 
-      </div> -->
+      </div>
 
 
      </section> 
