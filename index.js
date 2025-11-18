@@ -19,13 +19,36 @@
 
 //THE BEST WAY OF PRACTISE
 
-  let totalprice=0
+let totalprice=0
+let discount=0
+
+let displayEl=document.getElementById("display")
+let totalPriceEl=document.getElementById("totalPrice")
+let discountEl=document.getElementById("discount")
+let totalEl=document.getElementById("total")
+
+
 
 function getUniversalData(card){
-    const name=card.dataset.name
-   const price=parseInt(card.dataset.price)
- 
-   totalprice+=price
-    console.log(name,price)
-    console.log("Totalprice",totalprice)
+  let name=card.dataset.name
+  let price=parseInt(card.dataset.price)
+  console.log(name,price)
+  totalprice+=price
+  console.log("TotalPrice:",totalprice)
+
+  let li=document.createElement("li")
+  li.classList.add("list-decimal")
+  li.innerText=name
+  displayEl.appendChild(li)
+  totalPriceEl.innerText=totalprice
+  totalEl.innerText=totalprice
 }
+
+function getInputDiscount(){
+  let discountvalueEl=document.getElementById("discountvalue").value
+  console.log(discountvalueEl)
+discount=parseInt(totalprice*discountvalueEl/100)
+discountEl.innerText=discount
+totalEl.innerText=totalprice-discount
+}
+
