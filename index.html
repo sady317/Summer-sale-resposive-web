@@ -66,6 +66,7 @@
           >
             <!-- FIRST CARD -->
             <div
+            data-id="1"
               onclick="getUniversalData(this)"
               data-name="K. Accessories"
               data-price="39.00"
@@ -88,6 +89,7 @@
 
             <!-- SECOND CARD -->
             <div
+            data-id="2"
               onclick="getUniversalData(this)"
               data-name="K. Accessories"
               data-price="26.00"
@@ -110,6 +112,7 @@
 
             <!-- THIRD CARD -->
             <div
+         data-id="3"
               onclick="getUniversalData(this)"
               data-name="Home Cooker"
               data-price="49.00"
@@ -287,6 +290,7 @@
               placeholder="Coupon code"
             />
             <button
+            id="applyBtn"
               onclick="getInputDiscount()"
               class="bg-[#E527B2] cursor-pointer text-white p-2 px-4 rounded-md rounded-l-none border-l-0"
             >
@@ -313,7 +317,7 @@
             <li>Total: <span id="total" class="text-gray-500"> 0TK</span></li>
           </ol>
 
-          <button onclick="my_modal_1.showModal()"  class="bg-[#E527B2] text-white py-2 rounded-sm mt-4 cursor-pointer">
+          <button id="buyBtn" onclick="my_modal_1.showModal()"  class="bg-[#E527B2] text-white py-2 rounded-sm mt-4 cursor-pointer">
             Make Purchase
           </button>
 
